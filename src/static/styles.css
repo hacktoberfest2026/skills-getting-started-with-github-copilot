@@ -70,6 +70,81 @@ section h3 {
   color: #0066cc;
 }
 
+.participant-section {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #e2e6ea;
+}
+
+.participant-section h5 {
+  margin-bottom: 6px;
+  color: #495057;
+  font-size: 0.9rem;
+}
+
+.participant-list {
+  padding: 0;
+  list-style: none;
+  color: #59636e;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.participant-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 4px 0;
+  border-bottom: 1px solid #edf0f2;
+}
+
+.participant-row:last-child {
+  border-bottom: 0;
+}
+
+.participant-email {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.participant-list .remove-participant {
+  display: inline-flex;
+  flex: 0 0 30px;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  color: #737e88;
+}
+
+.participant-list .remove-participant:hover {
+  border-color: #ffd6d2;
+  background: #fff1f0;
+  color: #b42318;
+}
+
+.participant-list .remove-participant:focus-visible {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+.remove-participant svg {
+  width: 16px;
+  height: 16px;
+}
+
+.participant-list .empty {
+  color: #77818b;
+  font-style: italic;
+  list-style: none;
+}
+
 .activity-card p {
   margin-bottom: 8px;
 }
